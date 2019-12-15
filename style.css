@@ -1,0 +1,864 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+    margin: 0px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#mainDIv{
+    margin: 0 auto;
+}
+body{
+    background-color: white;
+}
+#first{
+    background-color:black;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding:0px 0px 0px 60px;
+    vertical-align: middle;
+    /* font-family: calibri; */
+}
+a{
+    color: white;
+    text-decoration:none; 
+}
+.img1{
+    width: 50px;
+    height: 40px;
+}
+
+#second{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    box-sizing: border-box;
+    height: auto;
+    background: rgb(19, 19, 19);
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#second ul img{
+    width:55px;
+}
+
+.common-div{
+    display: inline-block;
+    min-width: 8%;
+    font-weight: 549;
+    letter-spacing: -.01em;
+    vertical-align: middle;
+    padding: 10px 1px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.common-div a:hover{
+    color: #0071e3;
+}
+.common-div img{
+    height: 50px;
+    width: 40px;
+}
+.common-div div{
+    font-size: .7em;
+    font-family: calibri;
+    color: aliceblue;
+}
+#new{
+    color: #f56300;
+    font-size: 10px;
+}
+#third{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+
+    box-sizing: border-box;
+}
+button{
+    border-radius: 15px;
+    background: #0071e3;
+   padding: 8px 15px;
+   border: 0px;
+   color: white;
+}
+#learnMore{
+     color:#2997ff;
+     font-size: 17px;
+}
+#forth{
+    /* background-color:red ; */
+    width: 100%;
+    height: 1000px;
+    box-sizing: border-box;
+    padding-top: 15%;
+    background-color: white;
+    clear: both;
+}
+#forth1{
+    height: auto;
+    width: 40%;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    padding:5% 0%;
+    
+}
+#forth1 h2{
+    font-size: 1.6em;
+    
+}
+#forth1 p{
+    font-size: 48px;
+    padding-top: 9px;
+    letter-spacing: -.003em;
+    font-weight: 600;
+    
+}
+#forth2{
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-size: cover;
+    box-sizing: border-box;
+}
+#forth2 img {
+   max-width: 100%;
+   max-height: auto;
+}
+#learnmore1{
+    color:#2997ff;
+}
+#fifth{
+    box-sizing: border-box;
+    background-color: rgb(252, 250, 250);
+    padding:5% 5% 5% 5% ;
+    clear: both;
+    height: 75vh;
+    width:100%;
+    margin: 0 auto;
+}
+#fifth1{
+    box-sizing: border-box;
+    float: left;
+    font-size: 38px;
+    padding-top: 5%;
+    letter-spacing: -.003em;
+    font-weight: 600;
+    width: 45%;
+}
+#fifth1 a{
+    color:rgb(73, 73, 240);
+    font-size: 17px;
+}
+#fifth2{
+    /* float: right; */
+    box-sizing: border-box;
+    padding: 0% 8% 0px 0px;
+    float: left;
+    width: 55%;
+    text-align: center;
+}
+#fifth2 img{
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+}
+#sixth{
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding:10% 3% 10% 3%;
+    float: left;
+
+    font-size: 15px;
+}
+
+
+#chosePhone{
+   text-align: center;
+   padding-bottom:10%;
+   font-size: 45px;
+}
+.sixthSub{
+    float: left;
+    width: 20%;
+    padding:0% 0% 0% 5%;
+}
+#compareModels{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#seventh{
+    padding: 0% 5%;
+    width: 100%;
+    height: 1300px;
+    box-sizing: border-box;
+    clear: both;
+    background-color: rgb(241, 241, 241);
+}
+#seventh h2{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
+#seventh a {
+    color: #0066cc;
+    font-size: 24px;
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#seventh1{
+   background-color: rgb(255, 255, 255);
+   width: 48.5%;
+   height: auto;
+   float: left;
+   padding-top: 10%;
+   clear: both;
+   margin-right: 3%;
+   box-sizing: border-box;
+}
+#seventh2{
+    background-color: rgb(255, 255, 255);
+   width: 48.5%;
+   padding-top: 10%;
+   float: left;
+   height: auto;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+#seventh1 h2{
+    font-size: 45px;
+}
+#seventh1 p{
+    text-align: center;
+    font-size: 15px;
+}
+#seventh1 #learnmore1{
+    text-align: center;
+}
+
+#seventh1 img{
+    padding-left:20%;
+}
+
+#seventh2 h2{
+    font-size: 45px;
+}
+#seventh2 p{
+    text-align: center;
+    font-size: 15px;
+}
+#seventh2 #learnmore1{
+    text-align: center;
+}
+#seventh2 img{
+    margin-left: -20%;
+}
+#seventh3{
+    text-align: center;
+    padding-top: 10%;
+    clear: both;
+    
+    /* background: chartreuse; */
+}
+#seventh3 h2{
+    font-size: 20px;
+    padding-bottom: 0%;
+}
+#featuredAccess{
+    padding: 15% 0 0% 0;
+    clear: both;
+    
+}
+#featuredAccess h2{
+    font-size: 50px;
+}
+#eighth{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    float: left;
+    box-sizing: border-box;
+
+}
+#eighth a{
+    color: blue;
+}
+#eighth1{
+    box-sizing: border-box;
+    width: 32.5%;
+    margin-left: 0.5%;
+    float: left;
+   padding-top: 6%;
+   padding-bottom: 7%;
+   background: white;
+   overflow: hidden;
+   text-align: center;
+}
+
+#eighth2{
+    box-sizing: border-box;
+    width: 32.5%;
+    float: left;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    padding-left: 0%;
+    margin-left: 1%;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+#eighth3{
+    box-sizing: border-box;
+    width: 32.5%;
+    float: left;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    margin-left: 1%;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+}
+#shopAccessories{
+    text-align: center;
+    padding: 5% 10% 10% 10%;
+    clear: both;
+    font-size: 20px;
+}
+#ninth{
+width: 100%;
+clear: both;
+box-sizing: border-box;
+background-color: rgb(250, 250, 250);
+height: 600px;
+}
+#ninth1{
+width: 40%;
+text-align: center;
+box-sizing: border-box;
+padding: 15% 0 0 3%;
+font-size: 40px;
+float: left;
+clear: both;
+height: 100%;
+font-weight: 600;
+
+}
+
+#ninth2{
+    padding: 10% 0 0 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    width: 60%;
+    background-color: rgb(250, 250, 250);
+}
+#ninth2 img{
+    padding-left: 10%;
+}
+#tenth{
+box-sizing: border-box;
+float: left;
+width: 100%;
+text-align: center;
+padding:10% 3%;
+font-size: 17px;
+clear: both;
+background-color: rgb(238, 235, 235);
+}
+
+#tenth1{
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+    
+}
+
+#tenth2{
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+    
+}
+
+#tenth3{
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+    
+}
+#eleventh{
+    clear: both;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 35px;
+    padding: 0% 3% 0% 3%;
+    background-color: rgb(238, 235, 235);
+}
+#eleventh h2{
+    padding: 15% 0% 10% 0%;
+}
+#eleventh h3{
+    padding: 15% 0% 0% 0%;
+}
+#eleventh1{
+    background: url("ios13.jpg") center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+    clear: both;
+    color: white;
+}
+#eleventh1 #learnMore{
+    color: whitesmoke;
+}
+
+#tweleveth{
+     padding: 3% 3% 0% 3%;
+    background-color: rgb(235, 236, 235);
+    box-sizing: border-box;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#tweleveth1{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 48.5%;
+    height: auto;
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 6.1%;
+    background-size: 48.5%;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    height: 575px;
+}
+#tweleveth1 h3{
+    font-size: 40px;
+}
+#tweleveth2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 48.5%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5%;
+}
+#tweleveth2 h3{
+    font-size: 40px;
+}
+
+#tweleveth1 img{
+    padding-left: 20%;
+    margin-right: -15%;
+    overflow: hidden;
+    position: relative;
+}
+#thirteen{
+    padding: 3% 3% 3% 3%;
+    background-color: rgb(235, 236, 235);
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    width: 100%;
+    text-align: center;
+    
+}
+#thirteen1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20%;
+    height: 425px;
+}
+#thirteen2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5%;
+   
+}
+#thirteen1 {
+    font-size: 45px;
+}
+#thirteen1 h2{
+    font-size: 20px;
+}
+
+#thirteen1 a{
+    color:#2997ff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#fourteen{
+    clear: both;
+    text-align: center;
+    padding: 10% 3% 10% 3%;
+    height: 530px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(235, 236, 235);
+}
+
+#fourteen h2{
+   
+    padding: 0% 0% 10% 0%;
+}
+#fourteen1{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    padding:15% 3% 13% 3%;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+#fourteen2{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 50%;
+    color: white;
+    float: left;
+    padding-top: 12%;
+    padding-bottom: 6.3%;
+    position: relative;
+    overflow: hidden;
+}
+#fourteen p{
+    font-size: 20px;
+   
+}
+#fourteen a{
+    color: rgb(0, 102, 255);
+    font-size: 20px;
+}
+#fourteen2 img{
+   max-width: 100%;
+
+}
+#fifteen{
+width: 100%;
+height: 660px;
+box-sizing: border-box;
+padding: 3% 3%;
+background: rgb(240, 240, 240);
+clear: both;
+}
+#fifteen1{
+  
+    width: 48%;
+    float: left;
+    height: 500px;
+    background-repeat: no-repeat;
+    clear: both;
+    padding: 10% 0 0 0;
+    background: url("apple_card_tile.jpg") center no-repeat;
+}
+#fifteen1 img{
+   
+}
+
+#fifteen2{
+   text-align: center;
+    width: 49%;
+    float: left;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 10% 0 0 0;
+    margin-left: 3%;
+    background: url("arcade_background.jpg")center no-repeat;
+}
+#fifteen1Sub1{
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+#fifteen1Sub2{
+   padding: -10%;
+}
+#fifteen1Sub2 img{
+  
+}
+#fifteen2Sub1{
+   color: rgb(255, 255, 255);
+}
+
+#fifteen2Sub1 p{
+   display: inline;
+}
+#fifteen2Sub1{
+    line-height: 1.5;
+ }
+ 
+#fifteen2Sub2{
+   
+    position: relative;
+    overflow: hidden;
+    
+}
+#fifteen2Sub2 img{
+   max-width: 100%;
+   padding-top: 6%;
+}
+#sixteen{
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 1% 3%;
+    clear: both;
+    float: left;
+    box-sizing: border-box;
+    background: rgb(240, 240, 240);
+    
+}
+#sixteen1{
+    box-sizing: border-box;
+    width: 48%;
+    float: left;
+    height: 600px;
+    clear: both; 
+    padding-top: 7%;
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: url("apple_music.png") no-repeat center bottom, 
+    linear-gradient(-25deg, rgba(210, 83, 177), rgba(251, 111, 74));
+}
+#sixteen1 a{
+    clear: both;
+    font-size: 20px;
+}
+#sixteen1 #learnMore{
+    color: white; 
+    display: inline;
+    padding-left: 3%; 
+    font-size: 20px;
+}
+#sixteen1 img{
+    clear: both;
+}
+
+#sixteen2{
+    box-sizing: border-box;
+    text-align: center;
+    width: 49%;
+    line-height: 1.5;
+    font-size: 20px;
+    float: left;
+    height: 600px;
+    color: white;
+    background: url("apple_news_plus_tile.jpg");
+    padding: 7% 0 0 0;
+    margin-left: 3%;
+}
+
+#sixteen2 a{
+    clear: both;
+    font-size: 20px;
+}
+#sixteen2 #learnMore{
+    color: white; 
+    
+    padding-left: 3%; 
+    font-size: 20px;
+}
+#sixteen2 img{
+    clear: both;
+}
+
+#seventeen{
+    width: 100%;
+    height: 530px;
+    box-sizing: border-box;
+    padding: 3% 3%;
+    clear: both;
+    float: left;
+    box-sizing: border-box;
+    background: rgb(240, 240, 240);
+    
+}
+#seventeen1{
+    box-sizing: border-box;
+    width: 48%;
+    float: left;;
+    height: 500px;
+    clear: both; 
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    background-size: 100% auto;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    /* background: url("thats_iphone.jpg") no-repeat center black; */
+}
+#seventeen1Sub1{
+    box-sizing: border-box;
+    width: 75%;
+    text-align: center;
+    height: auto;
+}
+#seventeen1Sub1 img{
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+    padding-left: 20%;
+}
+#seventeen1Sub2{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+#seventeen1Sub2 h2{
+    font-size: 40px;
+}
+#seventeen1Sub2 h2 {
+    text-align: center;
+}
+#seventeen2{
+    box-sizing: border-box;
+    text-align: center;
+    width: 49%;
+    font-size: 20px;
+    float: left;
+    height: 500px;
+    color: white;
+    padding: 7% 0 0 0;
+    margin-left: 3%;
+    background-size: 100%;
+    background: url("shot_on_iphone.jpg") center;
+}
+#seventeen2 p{
+    padding: 1% 10%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+#seventeen2 h2{
+    font-size: 37px;
+}
+#eighteen{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+   clear: both;
+   padding: 3% 5%;
+   background-color: #f5f5f7;
+   font-size: 12px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+    color: #86868B;
+    font-style: normal;
+}
+#topPara{
+    box-sizing: border-box;
+    width:100%;
+    /* background-color: rgb(37, 197, 37); */
+}
+#downPara{
+    box-sizing: border-box;
+    width:98%;
+    border-bottom: 1px solid #d2d2d7;
+    /* background-color: lightgreen; */
+    
+}
+#eighteen li{
+    padding: 1% 0%;
+    
+}#nineteen{
+    width: 100%;
+    height: 530px;
+    box-sizing: border-box;
+    float: left;
+   clear: both;
+    padding-left: 0%;
+    padding-right: 5%;
+   
+    background-color: #f5f5f7;
+}
+#nineteen img{
+   color: black;
+}
+#nineteen ul li {
+    display: block;
+}
+.nineteenSub{
+   float: left;
+   width: 20%;
+   font-size: 11px;
+   line-height: 2.5;
+   height: 100px;
+   
+}
+#nineteen a{
+    color: #515154;
+    letter-spacing: normal;
+}
+#twenty{
+    box-sizing: border-box;
+    padding: 0 5% 0 3%;
+    font-size: 10px;
+    width: 100%;
+    height: 150px;
+    clear: both;
+   
+    background-color: #f5f5f7;
+}
+#twenty p{
+   padding-bottom: 1%;
+    border-bottom: 1px solid lightgray;
+    color: #777777;
+    font-size: 12px;
+}
+#twenty a{
+    color: #0066cc;
+   font-size: 12px;
+}
+#twentySub{
+    /* display: inline; */
+    background-color: #f5f5f7;
+    width: 100%;
+    color: #777777;
+    height: 80px;
+    font-size: 13px;
+}
+#twentySub  a {
+    padding-left: 5px;
+    color: #777777;
+}
